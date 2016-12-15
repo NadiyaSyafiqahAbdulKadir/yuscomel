@@ -16,7 +16,7 @@ void loop()
     float sensorValue;
 
     sensorValue = analogRead(A0);
-    sensor_volt = sensorValue/1024*5.0;
+    sensor_volt = 2350/1024*5.0;
     
     if(sensor_volt>0.20)
   
