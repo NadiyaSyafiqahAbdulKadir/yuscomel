@@ -1,0 +1,73 @@
+
+user@Admin MINGW64 ~
+$ dir
+Adobe\ Flash\ Builder\ 4.6
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+EncogProjects
+Favorites
+IBM
+IntelGraphicsProfiles
+Links
+Local\ Settings
+Music
+My\ Documents
+NetHood
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{865793f9-849c-11e6-8e49-eabd6ba4570d}.TM.blf
+NTUSER.DAT{865793f9-849c-11e6-8e49-eabd6ba4570d}.TMContainer00000000000000000001                                                                                                                .regtrans-ms
+NTUSER.DAT{865793f9-849c-11e6-8e49-eabd6ba4570d}.TMContainer00000000000000000002                                                                                                                .regtrans-ms
+ntuser.ini
+OneDrive
+Pictures
+PrintHood
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Tracing
+Videos
+VirtualBox\ VMs
+wocker
+
+user@Admin MINGW64 ~
+$ cd desktop
+
+user@Admin MINGW64 ~/desktop
+$ cd Bob
+
+user@Admin MINGW64 ~/desktop/Bob
+$ git clone https://github.com/NadiyaSyafiqahAbdulKadir/SCM_MiniProjectGroup8.gi                                                                                                                t
+Cloning into 'SCM_MiniProjectGroup8'...
+remote: Counting objects: 10, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 10 (delta 1), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (10/10), done.
+
+user@Admin MINGW64 ~/desktop/Bob
+$ cd SCM_MiniProjectGroup8
+
+user@Admin MINGW64 ~/desktop/Bob/SCM_MiniProjectGroup8 (master)
+$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/NadiyaSyafiqahAbdulKadir/SCM_MiniProjectGroup8
+   7406640..50f2892  master     -> origin/master
+Updating 7406640..50f2892
+Fast-forward
+ delete.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+user@Admin MINGW64 ~/desktop/Bob/SCM_MiniProjectGroup8 (master)
+$
