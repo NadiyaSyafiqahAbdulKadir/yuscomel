@@ -1,0 +1,34 @@
+void setup()
+{
+  Serial.begin(9600); //Initialize serial port - 9600 bps
+  Serial.println("SMOKE MONITORING SYSTEM");
+
+  pinMode(13,OUTPUT);
+  
+}
+
+void loop()
+{
+  if(Serial.available()>0)
+  {
+    
+    float sensor_volt=Serial.read();
+    float sensorValue;
+
+    sensorValue = analogRead(A0);
+    sensor_volt = sensorValue/1024*5.0;
+    
+    if(sensor_volt>0.20)
+  
+  {
+    digitalWrite(13,HIGH);
+    delay(1000);
+    digitalWrite(13,LOW);
+  }
+
+  Serial.print("sensor_volt = ");
+  Serial.print(sensor_volt);
+  Serial.println("v");
+  delay(1000);
+  }
+}
